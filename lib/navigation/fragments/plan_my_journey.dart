@@ -393,7 +393,7 @@ class _PlanMyJourneyState extends State<PlanMyJourney> with FragmentUtils, Autom
                           new Row(
                             children: <Widget>[
                               Radio(
-                                autofocus: true,
+                                // autofocus: true,
                                 activeColor: Colors.white,
                                 groupValue: type,
                                 value: '',
@@ -461,7 +461,7 @@ class _PlanMyJourneyState extends State<PlanMyJourney> with FragmentUtils, Autom
                           new Row(
                             children: <Widget>[
                               Radio(
-                                autofocus: true,
+                                // autofocus: true,
                                 activeColor: Colors.white,
                                 groupValue: mode,
                                 value: '',
